@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Navbar from './components/Navbar';
+import Banner from './components/Banner';
 
 
 class App extends Component {
@@ -7,6 +8,7 @@ class App extends Component {
     return (
         <div>
            <Navbar />
+           <Banner />
         </div>
     );
   }
